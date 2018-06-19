@@ -1,8 +1,3 @@
-# hglib-cli
-Fork of https://bitbucket.org/TakUnity/hglib-cli/src
-
-`I have taken all the integration tests that require setup and ignored them -jl`
-
 This project contains code to wrap the [Mercurial][1] command-line tool
 so that its functions can be used by a .NET application.
 
@@ -40,23 +35,3 @@ Any bugs in this library is entirely mine (Lasse V. Karlsen).
   [2]: http://mercurialnet.codeplex.com/
   [3]: mailto:lasse@vkarlsen.no
   [4]: http://tortoisehg.bitbucket.org/
-
-
-
-The examples that are shipped as part of the Mercurial.Net
-[repository][1] requires [LINQPad][2] to run, a free tool made
-by the author of [C# 40 in a Nutshell][3], a [O'Reilly][4]
-book about C# 4.0, LINQ and various other topics.
-
-Note that you need [LINQPad][2] version 4.27.1 or higher, as
-the scripts here rely on a relatively new feature where the script
-can discover its location on disk. This is used so that the scripts work against the
-repository of Mercurial.Net automatically.
-
-Ensure that you load up the solution file in Visual Studio 2010,
-and do a full rebuild for the Debug target before testing any
-of the examples. They rely on the binary produced as part of the
-build output.
-
-The examples numbered 100 and upwards are excercising the GUI client,
-TortoiseHg.
