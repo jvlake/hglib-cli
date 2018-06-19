@@ -10,7 +10,7 @@ namespace Mercurial
     internal static class PathEx
     {
         /// <summary>
-        /// Joins all the specified parts using <see cref="Path.Combine"/>.
+        /// Joins all the specified parts using Path.Combine
         /// </summary>
         /// <param name="parts">
         /// The parts of the path to build.
