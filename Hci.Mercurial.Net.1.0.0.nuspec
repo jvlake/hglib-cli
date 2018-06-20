@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Hci.Mercurial.Net</id>
+    <version>1.0.0</version>
+    <title></title>
+    <authors>jlake</authors>
+    <owners></owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/jvlake/hglib-cli</projectUrl>
+    <description>This project contains code to wrap the Mercurial command-line tool so that its functions can be used by a .NET application.
+
+Additionally, you can control the TortoiseHg GUI clients for Windows, bot</description>
+    <summary>Mercurial command-line tool</summary>
+  </metadata>
+  <files>
+    <file src="Mercurial.Net\bin\Release\*" target="lib\net462\" />
+  </files>
+</package>

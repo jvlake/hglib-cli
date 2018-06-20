@@ -6,8 +6,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mercurial.Net", "Mercurial.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BD7A7BB2-B1E1-4A9C-B2CB-F10385BB2FDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mercurial.Net.Tests", "Mercurial.Net.Tests\Mercurial.Net.Tests.csproj", "{7DA876D9-5C17-4147-ABD7-6796A714F20E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,12 +19,6 @@ Global
 		{536B722B-DE28-48FC-ABAF-12B4B9FFB44A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{536B722B-DE28-48FC-ABAF-12B4B9FFB44A}.ReleaseBinaries|Any CPU.ActiveCfg = ReleaseBinaries|Any CPU
 		{536B722B-DE28-48FC-ABAF-12B4B9FFB44A}.ReleaseBinaries|Any CPU.Build.0 = ReleaseBinaries|Any CPU
-		{7DA876D9-5C17-4147-ABD7-6796A714F20E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7DA876D9-5C17-4147-ABD7-6796A714F20E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7DA876D9-5C17-4147-ABD7-6796A714F20E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7DA876D9-5C17-4147-ABD7-6796A714F20E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7DA876D9-5C17-4147-ABD7-6796A714F20E}.ReleaseBinaries|Any CPU.ActiveCfg = ReleaseBinaries|Any CPU
-		{7DA876D9-5C17-4147-ABD7-6796A714F20E}.ReleaseBinaries|Any CPU.Build.0 = ReleaseBinaries|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

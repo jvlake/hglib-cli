@@ -10,6 +10,8 @@
 *.sln.docstates
 .DS_Store
 
+*.nupkg
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
