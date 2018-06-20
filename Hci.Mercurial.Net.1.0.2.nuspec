@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Hci.Mercurial.Net</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title></title>
     <authors>jlake</authors>
     <owners></owners>
@@ -14,6 +14,6 @@ Additionally, you can control the TortoiseHg GUI clients for Windows, bot</descr
     <summary>Mercurial command-line tool</summary>
   </metadata>
   <files>
-    <file src="Mercurial.Net\bin\Release\*" target="lib\net462\" />
+    <file src="hglib-cli\bin\Release\*" target="lib\net461\" />
   </files>
 </package>
