@@ -1,7 +1,25 @@
 # hglib-cli
-Fork of https://bitbucket.org/TakUnity/hglib-cli/src
 
-`I have taken all the integration tests that require setup and ignored them -jl`
+PersistentClient client uses -> `serve --cmdserver pipe --noninteractive --encoding cp1252`
+
+Disposing of PersistentClient closes the internal client
+
+EXAMPLES
+
+~~~~
+using Mercurial;
+
+var client = new PersistentClient(@"C:\...\path_to_repo\");
+
+var command = new LogCommand();
+
+client.Execute(command);
+
+Debug.WriteLine(command.Result);
+~~~~
+---
+
+Fork of https://bitbucket.org/TakUnity/hglib-cli/src
 
 This project contains code to wrap the [Mercurial][1] command-line tool
 so that its functions can be used by a .NET application.
