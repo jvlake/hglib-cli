@@ -18,6 +18,13 @@ client.Execute(command);
 Debug.WriteLine(command.Result);
 ~~~~
 ---
+~~~~
+//add a DI binding
+kernel.Bind<ICachedPersistentClientFactory>().To<CachedPersistentClientFactory>().InSingletonScope();
+
+then ctor inject of 
+~~~~
+---
 
 Fork of https://bitbucket.org/TakUnity/hglib-cli/src
 
